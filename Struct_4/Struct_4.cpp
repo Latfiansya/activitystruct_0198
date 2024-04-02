@@ -42,11 +42,11 @@ int main()
 	{
 		cout << endl;
 		cout << "\nData Mahasiswa ke-" << (i + 1) << ":" << endl;
-		cout << "\nNIM\t: " << mhs[i].nim;
-		cout << "\nNama\t: " << mhs[i].nama;
+		cout << "\nNIM : " << mhs[i].nim;
+		cout << "\nNama : " << mhs[i].nama;
 		cout << "\nAlamat";
 		cout << "\n\tDesa : " << mhs[i].alamat.desa;
 		cout << "\n\tKota : " << mhs[i].alamat.kota;
-		cout << "\nUmur\t: " << mhs[i].umur;
+		cout << "\nUmur : " << mhs[i].umur;
 	}
 }
