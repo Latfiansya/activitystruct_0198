@@ -13,7 +13,7 @@ struct Mahasiswa
 	string nim;
 	string nama;
 	DetailAlamat alamat;
-	int umur;
+	string umur;
 };
 
 int main()
@@ -35,6 +35,7 @@ int main()
 		cout << "Umur Mahasiswa\t: ";
 		cin >> mhs[i].umur;
 		cin.ignore();
+		cout << endl; 
 	}
 
 	for (int i = 0; i < 3; i++)
