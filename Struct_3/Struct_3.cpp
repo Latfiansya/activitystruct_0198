@@ -35,11 +35,14 @@ int main()
 		cout << "Umur Mahasiswa\t: ";
 		cin >> mhs[i].umur;
 	}
-	cout << endl;
-	cout << "\nNIM : " << mhs.nim;
-	cout << "\nNama : " << mhs.nama;
-	cout << "\nAlamat";
-	cout << "\n\tDesa : " << mhs.alamat.desa;
-	cout << "\n\tKota : " << mhs.alamat.kota;
-	cout << "\nUmur : " << mhs.umur;
+	for (int i = 0; i < 3; i++)
+	{
+		cout << endl;
+		cout << "\nNIM : " << mhs[i].nim;
+		cout << "\nNama : " << mhs[i].nama;
+		cout << "\nAlamat";
+		cout << "\n\tDesa : " << mhs[i].alamat.desa;
+		cout << "\n\tKota : " << mhs[i].alamat.kota;
+		cout << "\nUmur : " << mhs[i].umur;
+	}
 }
